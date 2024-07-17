@@ -1,0 +1,9 @@
+.NavBarDiv {
+   display: flex;
+   
+   vertical-align: top;
+}
+
+.leftNavBarDiv {
+   float: left;
+}

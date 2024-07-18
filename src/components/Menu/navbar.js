@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
-import "../css/navbar.css"
+import "../../css/navbar.css"
+import Nav from "./nav"
 
 function MyButton() {
    return (
@@ -29,7 +30,7 @@ function NavBar() {
    return (
       <div className={'NavBarDiv'}>
          <div className={'leftNavBarDiv'}>
-            <MenuButton />
+            <Nav />
          </div>
          <div className={'middleNavBarDiv'}>
             <p id={'title'}>

@@ -6,29 +6,26 @@ html, body, .container-fluid {
    width: 100vw;
    height: 60px;
    display: flex;
-   vertical-align: top;
-   justify-content: center;
    align-items: center;
+   justify-content: center;
 }
 
 .leftNavBarDiv {
    width: 10vw;
+   display: flex;
    justify-content: center;
-   align-items: center;
-   vertical-align: middle;
 }
 
 .middleNavBarDiv {
    width: 80vw;
+   display: flex;
    justify-content: center;
-   align-items: center;
-   margin: auto;
 }
 
 .rightNavBarDiv {
    width: 10vw;
-   align-items: center;
-   vertical-align: middle;
+   display: flex;
+   justify-content: center;
 }
 
 #title {

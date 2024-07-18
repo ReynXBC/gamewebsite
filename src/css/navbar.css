@@ -1,9 +1,36 @@
+html, body, .container-fluid {
+   height: 100%;
+}
+
 .NavBarDiv {
+   width: 100vw;
+   height: 60px;
    display: flex;
-   
    vertical-align: top;
+   justify-content: center;
+   align-items: center;
 }
 
 .leftNavBarDiv {
-   float: left;
+   width: 10vw;
+   justify-content: center;
+   align-items: center;
+   vertical-align: middle;
+}
+
+.middleNavBarDiv {
+   width: 80vw;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+
+.rightNavBarDiv {
+   width: 10vw;
+   align-items: center;
+   vertical-align: middle;
+}
+
+#title {
+   color: aqua;
 }

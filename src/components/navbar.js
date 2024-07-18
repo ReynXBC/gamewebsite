@@ -32,9 +32,9 @@ function NavBar() {
             <MenuButton />
          </div>
          <div className={'middleNavBarDiv'}>
-            <title>
+            <p id={'title'}>
                Bizzoo
-            </title>
+            </p>
          </div>
          <div className={'rightNavBarDiv'}>
             <AccountButton />
